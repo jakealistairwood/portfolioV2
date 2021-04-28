@@ -1,0 +1,97 @@
+@import '../../assets/scss/main';
+
+.hero {
+    position: relative;
+    background-image: $heroGradientReverse;
+    padding-top: 200px;
+    height: 100vh;
+
+    .planet1 {
+        position: absolute;
+        top: 15vh;
+        left: 16vw;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: linear-gradient(0deg, #a18cd1 0%, #fbc2eb 100%);
+
+        @media screen and (max-width: 768px) {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .planet2 {
+        position: absolute;
+        top: 10vh;
+        right: 20vw;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+        @media screen and (max-width: 768px) {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .planet3 {
+        position: absolute;
+        top: 27vh;
+        right: 10vw;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+        @media screen and (max-width: 768px) {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 150px;
+
+        @media screen and (min-width: 1440px) {
+            width: 50%;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+        
+        h1 {
+            display: flex;
+            flex-direction: column;
+            color: $white;
+            font-size: 3.7rem;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+        p {
+            color: $lightGrey;
+            font-size: 1.3rem;
+            width: 60%;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: #272D34;
+            border-radius: 6px;
+            padding: 15px 50px;
+            border: none;
+            width: 250px;
+            color: $white;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+    }
+}
