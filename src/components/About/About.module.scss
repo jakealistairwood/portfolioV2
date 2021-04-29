@@ -1,0 +1,102 @@
+@import '../../assets/scss/main';
+
+.about {
+    padding-top: 200px;
+
+    .about__header {
+        padding-bottom: 200px;
+    }
+
+    .about__overview {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 60%;
+            height: 400px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .overview__img {
+            position: relative;
+            background-color: #21232B;
+            height: 100%;
+            width: 400px;
+            margin-left: 100px;
+
+            .overview__selfie {
+                width: 100%;
+                position: absolute;
+                top: 40px;
+                left: -100px;
+            }
+        }
+
+        .overview__content {
+            position: relative;
+            height: 100%;
+            width: 40%;
+
+            .content__header {
+                position: absolute;
+                top: -45px;
+                left: -230px;
+
+                h3 {
+                    color: $white;
+                    font-size: 2.5rem;
+                    font-weight: 900;
+                    letter-spacing: 0.05em;
+                    line-height: 50px;
+                }
+
+                .designDetail {
+                    background-color: $orange;
+                    width: 70px;
+                    height: 2px;
+                    position: relative;
+                    margin-top: 20px;
+                }
+            }
+
+            .content__body {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 180px;
+                left: -150px;
+
+                p {
+                    color: $lightGrey;
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    width: 90%;
+                    line-height: 35px;
+                    margin-bottom: 30px;
+                }
+
+                .secondaryBtn {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 180px;
+                    background-color: #272D34;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 12px 30px;
+                }
+
+                a {
+                    color: $white;
+                    font-size: 0.8rem;
+                    font-weight: 700;
+                    margin-right: 20px;
+                }
+
+                svg {
+                    height: 13px;
+                }
+            }
+        }
+    }
+}

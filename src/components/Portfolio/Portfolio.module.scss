@@ -1,28 +1,6 @@
 @import '../../assets/scss/main';
 
 .portfolio {
-    .section__header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        padding-bottom: 100px;
-
-        h2 {
-            font-size: 2.4rem;
-            margin-bottom: 20px;
-            font-weight: 900;
-        }
-
-        .designDetail {
-            width: 100px;
-            height: 4px;
-            background-color: $mintGreen;
-        }
-    }
-
-
     .portfolio__cta {
         display: flex;
         flex-direction: column;

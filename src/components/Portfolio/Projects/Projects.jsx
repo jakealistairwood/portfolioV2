@@ -40,16 +40,16 @@ const Projects = () => {
                     </div>
                     <div class={styles.project__right}>
                         <img src={ChevronDown} alt="chevron-down" />
-                            <a href={project.preview} target="_blank"> 
-                                <div className={styles.project__projectImg}>
-                                    <div class="design-detail">
-                                        <div class="circle-1"></div>
-                                        <div class="circle-2"></div>
-                                        <div class="circle-3"></div>
-                                    </div>
-                                    <img className={styles.preview__img} src={project.img} alt="project-preview-img" />
+                        <a href={project.preview} target="_blank"> 
+                            <div className={styles.project__projectImg}>
+                                <div class="design-detail">
+                                    <div class="circle-1"></div>
+                                    <div class="circle-2"></div>
+                                    <div class="circle-3"></div>
                                 </div>
-                            </a>
+                                <img className={styles.preview__img} src={project.img} alt="project-preview-img" />
+                            </div>
+                        </a>
             </div>    
                 </div>
             ))}
