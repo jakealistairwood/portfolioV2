@@ -3,6 +3,7 @@ import styles from './Portfolio.module.scss';
 import Featured from './Featured';
 import { featured } from '../../projects';
 import Projects from './Projects';
+import { Link } from 'react-scroll';
 
 const Portfolio = () => {
 
@@ -19,13 +20,21 @@ const Portfolio = () => {
             <div class={styles.portfolio__cta}>
                 <p>For more information about me, see below:</p>
                 <div>
-                    <a href="#about">
+                    <Link 
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                    >
                         <button className={styles.secondaryBtn}>About me</button>
-                    </a>
+                    </Link>
                     <span>or</span>
-                    <a href="#contact">
+                    <Link 
+                        to="contact"
+                        smooth={true}
+                        duration={500}                       
+                    >
                         <button class={styles.primaryBtn}>Get in Touch</button>
-                    </a>
+                    </Link>
                 </div>
             </div> 
         </section>

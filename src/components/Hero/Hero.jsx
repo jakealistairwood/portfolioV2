@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Hero.module.scss';
 // import WaveSVG from '../../assets/img/wave.svg';
+import { Link } from 'react-scroll';
+
 
 const Hero = () => {
     return (
@@ -16,11 +18,14 @@ const Hero = () => {
                 <p>Who loves nothing more than designing and developing beautiful, engaging
                     websites and applications.
                 </p>
-                <button className={styles.hero__btn}>View My Work</button>
+                <Link 
+                    to="featured"
+                    smooth={true}
+                    duration={500}
+                >
+                    <button className={styles.hero__btn}>View My Work</button>
+                </Link>
             </div>
-            {/* <div className={styles.wave}>
-                <img src={WaveSVG} alt=""/>
-            </div> */}
         </header>
     )
 }

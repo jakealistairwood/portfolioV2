@@ -5,13 +5,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import CV from '../../assets/img/resume.pdf';
 import uuid from 'react-uuid';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
 
     const navLinks = [
-        { name: 'Work', href: '#featured' },
-        { name: 'About', href: '#about' },
-        { name: 'Contact', href: '#contact' }
+        { name: 'Work', href: 'featured' },
+        { name: 'About', href: 'about' },
+        { name: 'Contact', href: 'contact' }
     ]
 
     return (
@@ -21,9 +22,17 @@ const Navbar = () => {
             </a>
             <ul className={styles.navbar__links}>
                 {navLinks.map(link => (
-                    <a className={styles.navbar__link} key={uuid()} href={link.href}>
+                    <Link 
+                        activeClass="active"
+                        to={link.href} 
+                        className={styles.navbar__link} 
+                        key={uuid()}
+                        smooth={true}
+                        spy={true}
+                        duration={500}
+                    >
                         <li>{link.name}</li>
-                    </a>
+                    </Link>
                 ))}
                 <a className={styles.navbar__link} href={CV}><li>Resume</li></a>
             </ul>
