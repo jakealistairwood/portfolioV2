@@ -97,6 +97,12 @@
                     left: -230px;
                 }
 
+                @media screen and (min-width: 1440px) {
+                    position: absolute;
+                    top: -165px;
+                    left: -165px;
+                }
+
                 h3 {
                     color: $white;
                     font-size: 1.4rem;
@@ -133,6 +139,12 @@
                     position: absolute;
                     top: 180px;
                     left: -150px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    position: absolute;
+                    top: 150px;
+                    left: -80px;
                 }
 
                 p {

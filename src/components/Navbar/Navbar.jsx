@@ -16,8 +16,8 @@ const Navbar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <a href="" className={styles.linkWrapper}>
-                <img src={Logo} alt=""/>
+            <a href="index.html" className={styles.linkWrapper}>
+                <img src={Logo} alt="portfolio-logo"/>
             </a>
             <ul className={styles.navbar__links}>
                 {navLinks.map(link => (
