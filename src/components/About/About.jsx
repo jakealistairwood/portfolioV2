@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className={styles.about__overview}>
                 <div className={styles.overview__img}>
-                    <img className={styles.overview__selfie} src={Photo} alt="photo-of-me"/>
+                    <img className={styles.overview__selfie} src={Photo} alt="selfie"/>
                 </div>    
                 <div className={styles.overview__content}>
                     <div className={styles.content__header}>
@@ -20,9 +20,12 @@ const About = () => {
                         <div className={styles.designDetail}></div>
                     </div>
                     <div className={styles.content__body}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat quam omnis nobis at iusto temporibus accusamus iure mollitia voluptates.</p>
+                        <p>
+                            My aim is to bring digital experiences to life that not only help others but also 
+                            provide an eye-catching and intuitive experience in the process.
+                        </p>
                         <button class={styles.secondaryBtn}>
-                            <a href={CV} target="_blank">View Resume</a>
+                            <a href={CV} target="_blank" rel="noreferrer">View Resume</a>
                             <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 21L11 11L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>     

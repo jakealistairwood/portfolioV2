@@ -27,11 +27,11 @@ const Projects = () => {
                                 ))}
                             </div>
                             <div className={styles.project__links}>
-                                <a href={project.preview} target="_blank">
+                                <a href={project.preview} target="_blank" rel="noreferrer">
                                     <img src={EyeIcon} alt="preview-project-icon" />
                                     <span>Preview</span>
                                 </a>
-                                <a href={project.code} target="_blank">
+                                <a href={project.code} target="_blank" rel="noreferrer">
                                     <img src={CodeIcon} alt="preview-codebase-icon" />
                                     <span>Code</span>
                                 </a>
@@ -40,7 +40,7 @@ const Projects = () => {
                     </div>
                     <div class={styles.project__right}>
                         {/* <img src={ChevronDown} alt="chevron-down" /> */}
-                        <a href={project.preview} target="_blank"> 
+                        <a href={project.preview} target="_blank" rel="noreferrer"> 
                             <div className={styles.project__projectImg}>
                                 <div class="design-detail">
                                     <div class="circle-1"></div>

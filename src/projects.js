@@ -17,7 +17,7 @@ export const projects = [
     },
     {
         title: 'Small Margins',
-        description: 'Recreated a frontendmentor challenge using Figma and React JS. The Github Jobs API was used to render the job adverts with features including: <br> - Pagination to limit number of cards on the page. <br> Light/Dark mode using styled-components',
+        description: "In Development - A current project in which I'm using Express and MongoDB for the backend, complete with full CRUD, authorisation and protected routes.",
         skills: ['Express.js', 'Node.js', 'CRUD', 'Postman'],
         img: '/img/previews/smallmargins-preview.svg',
         code: 'https://github.com/jakealistairwood/small-margins',

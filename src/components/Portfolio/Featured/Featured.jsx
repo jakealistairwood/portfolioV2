@@ -21,11 +21,11 @@ const Featured = () => {
                         ))}
                     </div>
                     <div className={styles.featured__footerRight}>
-                        <a href={featured.code} target="_blank">
+                        <a href={featured.code} target="_blank" rel="noreferrer">
                             <img src={EyeIcon} alt="preview-project-icon" />
                             <span>Preview</span>
                         </a>
-                        <a href={featured.preview} target="_blank">
+                        <a href={featured.preview} target="_blank" rel="noreferrer">
                             <img src={CodeIcon} alt="preview-codebase-icon" />
                             <span>Code</span>
                         </a>
@@ -38,7 +38,7 @@ const Featured = () => {
                     <div className={styles.circle2}></div>
                     <div className={styles.circle3}></div>
                 </div>
-                <img src={featured.img} alt="dada-mockup-image" />
+                <img src={featured.img} alt="dada-mockup" />
             </div>
         </div>
     )

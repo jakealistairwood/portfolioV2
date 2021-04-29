@@ -31,14 +31,14 @@ const Contact = () => {
                 <a className={styles.contact__mailWrapper} href="mailto:jakealistairwood@gmail.com">jakealistairwood@gmail.com</a>
                 <div>
                     {contactLinks.map(link => (
-                        <a href={link.href}>
+                        <a href={link.href} key={uuid()}>
                             <button className={styles.contactBtn}>
                                 <img src={link.src} alt={link.alt} />
                             </button>
                         </a>
                     ))}
                 </div>
-                <small class="copyright">Jake Wood | All rights reserved.</small>
+                <small className={styles.copyright}>Jake Wood | All rights reserved.</small>
             </div>
         </footer>
     )

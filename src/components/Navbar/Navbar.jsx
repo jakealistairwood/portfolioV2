@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import CV from '../../assets/img/resume.pdf';
 import uuid from 'react-uuid';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
