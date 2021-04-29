@@ -39,7 +39,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div class={styles.project__right}>
-                        <img src={ChevronDown} alt="chevron-down" />
+                        {/* <img src={ChevronDown} alt="chevron-down" /> */}
                         <a href={project.preview} target="_blank"> 
                             <div className={styles.project__projectImg}>
                                 <div class="design-detail">

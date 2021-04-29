@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Todo App (Redux)',
         description: 'A frontendmentor.io challenge in which I had to recreate a Todo app. The application uses redux for the state management and also features a light/dark mode using styled-components.',
-        skills: ['React', 'Redux', 'StyledComponents', 'Figma'],
+        skills: ['React', 'Redux', 'Styled Components', 'Figma'],
         img: '/img/previews/Todo.png',
         code: 'https://github.com/jakealistairwood/fm-todo-redux',
         preview: 'https://fm-todo-redux.vercel.app/'
