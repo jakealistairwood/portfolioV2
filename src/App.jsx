@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import './App.scss';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
             <Portfolio />
             <About />
+            <Contact />
         </div>
     )
 }

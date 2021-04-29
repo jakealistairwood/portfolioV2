@@ -1,0 +1,62 @@
+@import '../../assets/scss/main';
+
+.contact {
+    background-color: #282A30;
+    width: 100%;
+
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 70px 0;
+
+        .contact__mailWrapper {
+            transition: 0.3s ease-in-out;
+            border-bottom: 2px solid transparent;
+            margin-bottom: 30px;
+            color: $orange;
+
+            &:hover {
+                border-bottom: 2px solid $orange;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                &:hover {
+                    border-bottom: none;
+                }
+            }
+
+            .contactBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 35px;
+                width: 35px;
+                background-color: $orange;
+                border: none;
+                border-radius: 50%;
+                margin: 0 7px;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #fe8a8a;
+                }
+            }
+        }
+
+        small {
+            color: #727272;
+            margin-top: 30px;
+        }
+    }
+}
