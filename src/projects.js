@@ -1,8 +1,16 @@
 export const projects = [
     {
+        title: 'Todo App (Redux)',
+        description: 'A frontendmentor.io challenge in which I had to recreate a Todo app. The application uses redux for the state management and also features a light/dark mode using styled-components.',
+        skills: ['React', 'Redux', 'StyledComponents', 'Figma'],
+        img: '/img/previews/Todo.png',
+        code: 'https://github.com/jakealistairwood/fm-todo-redux',
+        preview: 'https://fm-todo-redux.vercel.app/'
+    },
+    {
         title: 'Devjobs',
-        description: 'Recreated a frontendmentor challenge using Figma and React JS. The Github Jobs API was used to render the job adverts with features including: <br> - Pagination to limit number of cards on the page. <br> - Light/Dark mode using styled-components',
-        skills: ['React', 'Styled Components', 'Axios', 'Postman'],
+        description: 'Recreated a frontendmentor challenge using Figma and React JS. The Github Jobs API was used to render the job adverts with features including pagination to limit number of cards on the page and a light/dark mode using styled-components.',
+        skills: ['React', 'Styled Components', 'Axios', 'Postman', 'APIs'],
         img: '/img/previews/devjobs-preview.svg',
         code: 'https://github.com/jakealistairwood/github-jobs-api',
         preview: 'https://github-jobs-api-e3da5.web.app/'
@@ -18,7 +26,7 @@ export const projects = [
     {
         title: 'Brewdog API',
         description: 'A React App that uses an API to fetch data and display it on the application. A user can search and filter their beer selection by a range of properties.',
-        skills: ['React', 'API queries', 'SCSS'],
+        skills: ['React', 'APIs', 'SCSS'],
         img: '/img/previews/brewdog-preview.svg',
         code: 'https://github.com/jakealistairwood/brewdog-api',
         preview: 'https://brewdogapi-b5d03.web.app'

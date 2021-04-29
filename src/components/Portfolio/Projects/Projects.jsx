@@ -3,6 +3,7 @@ import styles from './Projects.module.scss';
 import { projects } from '../../../projects';
 import CodeIcon from '../../../assets/img/code-icon.svg';
 import EyeIcon from '../../../assets/img/eye-icon.svg';
+import ChevronDown from '../../../assets/img/chevron-down.svg';
 
 const Projects = () => {
 
@@ -36,7 +37,20 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>    
+                    </div>
+                    <div class={styles.project__right}>
+                        <img src={ChevronDown} alt="chevron-down" />
+                            <a href={project.preview} target="_blank"> 
+                                <div className={styles.project__projectImg}>
+                                    <div class="design-detail">
+                                        <div class="circle-1"></div>
+                                        <div class="circle-2"></div>
+                                        <div class="circle-3"></div>
+                                    </div>
+                                    <img className={styles.preview__img} src={project.img} alt="project-preview-img" />
+                                </div>
+                            </a>
+            </div>    
                 </div>
             ))}
         </div>

@@ -15,7 +15,19 @@ const Portfolio = () => {
                 <div className={styles.designDetail}></div>
             </div>
             <Featured />   
-            <Projects /> 
+            <Projects />
+            <div class={styles.portfolio__cta}>
+                <p>For more information about me, see below:</p>
+                <div>
+                    <a href="#about">
+                        <button className={styles.secondaryBtn}>About me</button>
+                    </a>
+                    <span>or</span>
+                    <a href="#contact">
+                        <button class={styles.primaryBtn}>Get in Touch</button>
+                    </a>
+                </div>
+            </div> 
         </section>
     )
 }
