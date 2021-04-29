@@ -1,53 +1,93 @@
 @import '../../assets/scss/main';
 
 .about {
-    padding: 200px 0;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    @media screen and (min-width: 768px) {
+        padding: 200px 0;
+    }
 
     .about__header {
-        padding-bottom: 200px;
+        padding-bottom: 100px;
+        
+        @media screen and (min-width: 768px) {
+            padding-bottom: 200px;
+        }
     }
 
     .about__overview {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
         @media screen and (min-width: 768px) {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            width: 60%;
+            width: 80%;
             height: 400px;
             margin: 0 auto;
             position: relative;
+
+            @media screen and (min-width: 1024px) {
+                width: 60%;
+            }
         }
         .overview__img {
             position: relative;
             background-color: #21232B;
             height: 100%;
-            width: 400px;
-            margin-left: 100px;
+            width: 100%;
+            margin: 0 auto;
+
+            @media screen and (min-width: 768px) {
+                width: 400px;
+                margin-left: 100px;
+            }
 
             .overview__selfie {
+                position: relative;
                 width: 100%;
-                position: absolute;
-                top: 40px;
-                left: -100px;
+                margin: 0 auto;
+                @media screen and (min-width: 768px) {
+                    width: 100%;
+                    position: absolute;
+                    top: 40px;
+                    left: -100px;
+                }
             }
         }
 
         .overview__content {
             position: relative;
             height: 100%;
-            width: 40%;
+            width: 100%;
+
+            @media screen and (min-width: 768px) {
+                width: 40%;
+            }
 
             .content__header {
-                position: absolute;
-                top: -45px;
-                left: -230px;
+                @media screen and (min-width: 768px) {
+                    position: absolute;
+                    top: -45px;
+                    left: -230px;
+                }
 
                 h3 {
                     color: $white;
-                    font-size: 2.5rem;
+                    font-size: 1.4rem;
                     font-weight: 900;
                     letter-spacing: 0.05em;
-                    line-height: 50px;
+                    line-height: 35px;
+                    margin-top: 20px;
+
+                    @media screen and (min-width: 768px) {
+                        letter-spacing: 0.05em;
+                        line-height: 50px;
+                        font-size: 2.5rem;
+                    }
                 }
 
                 .designDetail {
@@ -62,17 +102,27 @@
             .content__body {
                 display: flex;
                 flex-direction: column;
-                position: absolute;
-                top: 180px;
-                left: -150px;
+
+                @media screen and (min-width: 768px) {
+                    position: absolute;
+                    top: 180px;
+                    left: -150px;
+                }
 
                 p {
                     color: $lightGrey;
-                    font-size: 1.2rem;
+                    font-size: 0.8rem;
                     font-weight: 300;
-                    width: 90%;
-                    line-height: 35px;
-                    margin-bottom: 30px;
+                    width: 100%;
+                    line-height: 25px;
+                    margin: 30px 0;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 1.2rem;
+                        line-height: 35px;
+                        width: 90%;
+                        margin-bottom: 30px;
+                    }
                 }
 
                 .secondaryBtn {

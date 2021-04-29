@@ -27,10 +27,10 @@ const Navbar = () => {
                 <a className={styles.navbar__link} href="/img/_nology CV Jake Wood.pdf"><li>Resume</li></a>
             </ul>
             <div className={styles.navbar__icons}>
-                <a href="">
+                <a href="https://github.com/jakealistairwood">
                     <FontAwesomeIcon className={styles.navbar__socialIcon} icon={faGithub} /> 
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jake-wood-726141114/">
                     <FontAwesomeIcon className={styles.navbar__socialIcon} icon={faLinkedin} />
                 </a>
             </div>
