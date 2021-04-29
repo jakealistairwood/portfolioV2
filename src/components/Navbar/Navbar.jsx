@@ -3,6 +3,7 @@ import styles from './Navbar.module.scss';
 import Logo from '../../assets/img/portfolio-logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import CV from '../../assets/img/resume.pdf';
 import uuid from 'react-uuid';
 
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
                         <li>{link.name}</li>
                     </a>
                 ))}
-                <a className={styles.navbar__link} href="/img/_nology CV Jake Wood.pdf"><li>Resume</li></a>
+                <a className={styles.navbar__link} href={CV}><li>Resume</li></a>
             </ul>
             <div className={styles.navbar__icons}>
                 <a href="https://github.com/jakealistairwood">

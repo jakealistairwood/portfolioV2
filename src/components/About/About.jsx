@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './About.module.scss';
 import Photo from '../../assets/img/selfie.png';
+import CV from '../../assets/img/resume.pdf';
 
 const About = () => {
     return (
@@ -21,7 +22,7 @@ const About = () => {
                     <div className={styles.content__body}>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat quam omnis nobis at iusto temporibus accusamus iure mollitia voluptates.</p>
                         <button class={styles.secondaryBtn}>
-                            <a href="/img/_nology CV Jake Wood.pdf" target="_blank">View Resume</a>
+                            <a href={CV} target="_blank">View Resume</a>
                             <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 21L11 11L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>     
