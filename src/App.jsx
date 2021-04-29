@@ -12,9 +12,6 @@ const App = () => {
         <div className="app">
             <Navbar />
             <Hero />
-            {/* <Portfolio id="featured" />
-            <About id="about" />
-            <Contact id="contact" /> */}
             <Element name="featured" className="featured">
                 <Portfolio />
             </Element>

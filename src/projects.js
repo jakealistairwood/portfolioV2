@@ -41,11 +41,11 @@ export const projects = [
     },
     {
         title: 'JS Quiz Game',
-        description: 'A Kahoot inspired quiz-game developed using Vanilla JS. Currently a work in progress while I fix responsiveness and render more questions onto page!',
-        skills: ['Vanilla JS', 'Functional programming', 'OOP'],
+        description: 'A Kahoot inspired quiz-game developed using Vanilla JS and functional programming.',
+        skills: ['Vanilla JS', 'Functional programming', 'SCSS'],
         img: '/img/previews/js-quiz-preview.svg',
-        code: 'https://github.com/jakealistairwood/js-challenge-quiz-game',
-        preview: 'https://jakealistairwood.github.io/js-challenge-quiz-game/'
+        code: 'https://github.com/jakealistairwood/js-quiz',
+        preview: 'https://js-quiz-git-master-jakealistairwood.vercel.app/'
     },
     {
         title: 'JS Calculator',
