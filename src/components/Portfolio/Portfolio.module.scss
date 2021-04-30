@@ -51,12 +51,22 @@
                     background-color: #272D34;
                     color: $white;
                     border: none;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #353d46;
+                    }
                 }
 
                 .primaryBtn {
                     background-color: $midGrey;
                     border: 1px solid $midGrey;
                     color: $white;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #6c6b83;
+                    }
                 }
             }
         }
