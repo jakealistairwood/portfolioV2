@@ -21,9 +21,22 @@
                 font-weight: 700;
                 margin: 0 7px;
                 font-size: 0.8rem;
+                color: $white;
 
                 @media screen and (min-width: 768px) {
-                    font-size: 1.2rem;
+                    font-size: 1rem;
+                    margin: 0 10px;
+                    font-weight: 500;
+                    color: $lightGrey;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+
+                @media screen and (min-width: 1024px) {
+                    margin: 0 20px;
                 }
             }
         }
