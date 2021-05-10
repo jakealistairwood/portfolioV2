@@ -21,11 +21,11 @@ const Featured = () => {
                         ))}
                     </div>
                     <div className={styles.featured__footerRight}>
-                        <a href={featured.code} target="_blank" rel="noreferrer">
+                        <a href={featured.preview} target="_blank" rel="noreferrer">
                             <img src={EyeIcon} alt="preview-project-icon" />
                             <span>Preview</span>
                         </a>
-                        <a href={featured.preview} target="_blank" rel="noreferrer">
+                        <a href={featured.code} target="_blank" rel="noreferrer">
                             <img src={CodeIcon} alt="preview-codebase-icon" />
                             <span>Code</span>
                         </a>
