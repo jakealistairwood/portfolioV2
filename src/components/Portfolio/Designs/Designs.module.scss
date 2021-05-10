@@ -1,12 +1,12 @@
 @import '../../../assets/scss/main';
 
-.projects {
+.designs {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
 
-    .project {
+    .design {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -30,12 +30,12 @@
             width: 60%;
         }
 
-        .project__left {
+        .design__left {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
-            .project__header {
+            .design__header {
                 margin-top: 10px;
 
                 h3 {
@@ -45,7 +45,7 @@
                     text-transform: uppercase;
                 }
 
-                .project__description {
+                .design__description {
                     display: block;
                     color: $lightGrey;
                     font-weight: 300;
@@ -67,71 +67,28 @@
                 }
             }
 
-            .project__footer {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                flex-wrap: wrap;
-
-                .project__skills {
+            .design__footer {
+                a {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
+                    color: $white;
+                    margin-right: 20px;
+                    padding: 10px;
 
-                    .skillContainer {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: $midGrey;
-                        padding: 12px 10px;
+                    img {
                         margin-right: 10px;
-
-                        .skill {
-                            font-size: 0.5rem;
-                            color: $white;
-                            font-weight: 700;
-
-                            @media screen and (min-width: 1024px) {
-                                font-size: 0.6rem;
-                            }
-                        }
-                    }
-                }
-
-                .project__links {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    margin: 20px 0;
-
-                    @media screen and (min-width: 768px) {
-                        margin: 0;
-                        margin-top: 10px;
                     }
 
-                    a {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        color: $white;
-                        margin-right: 20px;
-                        padding: 10px;
-
-                        img {
-                            margin-right: 10px;
-                        }
-
-                        span {
-                            font-weight: 700;
-                            font-size: 0.7rem;
-                        }
+                    span {
+                        font-weight: 700;
+                        font-size: 0.7rem;
                     }
                 }
             }
         }
 
-        .project__right {
+        .design__right {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -143,16 +100,8 @@
                 margin-left: 50px;
             }
 
-            img {
-                @media screen and (min-width: 768px) {
-                    margin-top: 10px;
-                    margin-bottom: 30px;
-                    cursor: pointer;
-                }
-            }
-
             a {
-                .project__projectImg {
+                .design__designImg {
 
                     @media screen and (min-width: 768px) {
                         width: 250px;

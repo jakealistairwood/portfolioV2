@@ -65,3 +65,36 @@ export const featured = {
         code: 'https://github.com/jakealistairwood/dada',
         preview: 'https://dada-da4d5.web.app/'
 }
+
+export const designs = [
+    {
+        title: 'Flow (Banking App)',
+        description: '',
+        img: '/img/previews/flow.png',
+        preview: 'https://www.figma.com/file/6vk9yEA15ILeBYwTxLILkQ/Untitled',
+    },
+    {
+        title: 'Portfolio V2',
+        description: '',
+        img: '/img/previews/portfolioV2.png',
+        preview: 'https://www.figma.com/file/0dCfxPAOy8faCTjyQI5pzn/Untitled',
+    },
+    {
+        title: 'Pushtasker (Marketing Landing Page)',
+        description: '',
+        img: '/img/previews/pushtasker.png',
+        preview: 'https://www.figma.com/file/moQ7nfTZcfrWc6jfNA58KI/Untitled?node-id=0%3A1'
+    },
+    {
+        title: 'Nology Intake',
+        description: '',
+        img: '/img/previews/mariana-preview.svg',
+        preview: 'https://www.figma.com/file/HpQXz86r0Lpb4Dtdz9SVY7/Untitled'
+    },
+    {
+        title: 'Offshore Stainless Steel',
+        description: '',
+        img: '/img/previews/offshore.png',
+        preview: 'https://www.figma.com/file/FqibgdTuLUsI5WVrDRcOyW/Untitled'
+    }
+]

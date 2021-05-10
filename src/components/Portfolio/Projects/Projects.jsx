@@ -7,8 +7,6 @@ import ChevronDown from '../../../assets/img/chevron-down.svg';
 
 const Projects = () => {
 
-    console.log(projects);
-
     return (
         <div className={styles.projects}>
             {projects.map(project => (
