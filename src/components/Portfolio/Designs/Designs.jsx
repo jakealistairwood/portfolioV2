@@ -2,12 +2,13 @@ import React from 'react';
 import styles from './Designs.module.scss';
 import { designs } from '../../../projects';
 import EyeIcon from '../../../assets/img/eye-icon.svg';
+import uuid from 'react-uuid';
 
 const Designs = () => {
     return (
         <div className={styles.designs}>
             {designs.map(design => (
-                <div className={styles.design}>
+                <div className={styles.design} key={uuid()}>
                     <div className={styles.design__left}>
                         <div className={styles.design__header}>
                             <h3>{design.title}</h3>
