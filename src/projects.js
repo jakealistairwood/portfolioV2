@@ -65,3 +65,36 @@ export const featured = {
         code: 'https://github.com/jakealistairwood/dada',
         preview: 'https://dada-da4d5.web.app/'
 }
+
+export const designs = [
+    {
+        title: 'Flow',
+        description: 'A landing page for a fictional banking application, drawing inspiration from some of the banking apps out there such as Monzo and Revolut.',
+        img: '/img/previews/flow.png',
+        preview: 'https://www.figma.com/file/6vk9yEA15ILeBYwTxLILkQ/Untitled',
+    },
+    {
+        title: 'Portfolio V2',
+        description: 'A redesign for my portfolio which you are currently viewing. Used React to develop the website in order to make it more dynamic.',
+        img: '/img/previews/portfolioV2.png',
+        preview: 'https://www.figma.com/file/0dCfxPAOy8faCTjyQI5pzn/Untitled',
+    },
+    {
+        title: 'Shopsender',
+        description: 'Asked by a friend to design a landing page to market their app idea. Shopsender is an app that allows a user to integrate their different sales channels into one easy-to-manage application.',
+        img: '/img/previews/pushtasker.png',
+        preview: 'https://www.figma.com/file/moQ7nfTZcfrWc6jfNA58KI/Untitled?node-id=0%3A1'
+    },
+    {
+        title: 'Nology Intake',
+        description: 'As part of my nology web development bootcamp, I was asked by the team to design a webpage to showcase the portfolios of each of the Mariana Intake.',
+        img: '/img/previews/mariana-preview.svg',
+        preview: 'https://www.figma.com/file/HpQXz86r0Lpb4Dtdz9SVY7/Untitled'
+    },
+    {
+        title: 'Offshore Stainless Steel',
+        description: 'Asked by a friend to redesign a website for a company specialising in producing stainless steel solutions.',
+        img: '/img/previews/offshore.png',
+        preview: 'https://www.figma.com/file/FqibgdTuLUsI5WVrDRcOyW/Untitled'
+    }
+]

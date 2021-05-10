@@ -1,6 +1,43 @@
 @import '../../assets/scss/main';
 
 .portfolio {
+    .display__toggle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 200px;
+
+        .tabBtn {
+            background-color: transparent;
+            border: none;
+            color: $midGrey;
+            font-weight: 700;
+            font-size: 1.2rem;
+            transition: 0.3s ease-in-out;
+            border-bottom: 2px dotted transparent;
+
+            &:hover {
+                color: $white;
+                border-bottom: 2px dotted $lightGrey;
+            }
+        }
+
+        .active {
+            color: $white;
+            font-weight: 700;
+            border-bottom: 2px dotted $white;
+        }
+
+        span {
+            color: $lightGrey;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin: 0 10px;
+        }
+    }
+
     .portfolio__cta {
         display: flex;
         flex-direction: column;
