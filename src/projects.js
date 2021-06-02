@@ -8,6 +8,14 @@ export const projects = [
         preview: 'https://fm-todo-redux.vercel.app/'
     },
     {
+        title: 'Brewdog',
+        description: 'A React App that uses an API to fetch data and display it on the application. A user can search and filter their beer selection by a range of properties.',
+        skills: ['React', 'Tailwind', 'Context', 'Auth', 'API'],
+        img: '/img/previews/brewdog-preview.svg',
+        code: 'https://github.com/jakealistairwood/brewdog',
+        preview: 'https://brewdog-4ce0b.web.app/'
+    },
+    {
         title: 'Devjobs',
         description: 'Recreated a frontendmentor challenge using Figma and React JS. The Github Jobs API was used to render the job adverts with features including pagination to limit number of cards on the page and a light/dark mode using styled-components.',
         skills: ['React', 'Styled Components', 'Axios', 'Postman', 'APIs'],
@@ -22,14 +30,6 @@ export const projects = [
         img: '/img/previews/smallmargins-preview.svg',
         code: 'https://github.com/jakealistairwood/small-margins',
         preview: 'https://mighty-bayou-76861.herokuapp.com/'
-    },
-    {
-        title: 'Brewdog API',
-        description: 'A React App that uses an API to fetch data and display it on the application. A user can search and filter their beer selection by a range of properties.',
-        skills: ['React', 'APIs', 'SCSS'],
-        img: '/img/previews/brewdog-preview.svg',
-        code: 'https://github.com/jakealistairwood/brewdog-api',
-        preview: 'https://brewdogapi-b5d03.web.app'
     },
     {
         title: 'Mariana Portfolio',
