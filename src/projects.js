@@ -33,7 +33,7 @@ export const projects = [
     },
     {
         title: 'Small Margins',
-        description: "In Development - A current project in which I'm using Express and MongoDB for the backend, complete with full CRUD, authorisation and protected routes.",
+        description: "An express app using MongoDB for the backend, complete with full CRUD, authorisation and protected routes.",
         skills: ['Express.js', 'Node.js', 'CRUD', 'Postman'],
         img: '/img/previews/smallmargins-preview.svg',
         code: 'https://github.com/jakealistairwood/small-margins',
