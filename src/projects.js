@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: 'Small-Margins (Next.js)',
+        description: 'Currently in development. A Next.js App that uses Strapi CMS to create an API. Features include authentication, markdown, server-side and static props.  ',
+        skills: ['Next.js', 'Strapi', 'Auth'],
+        img: '/img/previews/small-margins-next.png',
+        code: 'https://github.com/jakealistairwood/small-margins-frontend',
+        preview: 'https://smallmarginsfrontend.vercel.app/'
+    },
+    {
         title: 'Todo App (Redux)',
         description: 'A frontendmentor.io challenge in which I had to recreate a Todo app. The application uses redux for the state management and also features a light/dark mode using styled-components.',
         skills: ['React', 'Redux', 'Styled Components', 'Figma'],
