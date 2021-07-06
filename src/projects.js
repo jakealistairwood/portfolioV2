@@ -76,6 +76,12 @@ export const featured = {
 
 export const designs = [
     {
+        title: 'Haven',
+        description: "A health & wellbeing blog site idea for a wordpress theme I'm in the process of developing. Takes inspiration from medium.com",
+        img: '/img/previews/haven.png',
+        preview: 'https://www.figma.com/file/OmF9HI1bZu7R1r9QM1uTZk/Untitled?node-id=0%3A1'
+    },
+    {
         title: 'Flow',
         description: 'A landing page for a fictional banking application, drawing inspiration from some of the banking apps out there such as Monzo and Revolut.',
         img: '/img/previews/flow.png',
