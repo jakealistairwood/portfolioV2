@@ -76,6 +76,12 @@ export const featured = {
 
 export const designs = [
     {
+        title: '19Toronto',
+        description: 'A landing page design for a fictional digital design and marketing agency.',
+        img: '/img/previews/19toronto.png',
+        alt: 'https://www.figma.com/file/OW5LvSPJEdAOqto7OmmXNT/Untitled?node-id=0%3A1'
+    },
+    {
         title: 'Haven',
         description: "A health & wellbeing blog site idea for a wordpress theme I'm in the process of developing. Takes inspiration from medium.com",
         img: '/img/previews/haven.png',
