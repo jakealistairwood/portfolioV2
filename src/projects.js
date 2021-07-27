@@ -79,7 +79,7 @@ export const designs = [
         title: '19Toronto',
         description: 'A landing page design for a fictional digital design and marketing agency.',
         img: '/img/previews/19toronto.png',
-        alt: 'https://www.figma.com/file/OW5LvSPJEdAOqto7OmmXNT/Untitled?node-id=0%3A1'
+        preview: 'https://www.figma.com/file/OW5LvSPJEdAOqto7OmmXNT/Untitled?node-id=0%3A1'
     },
     {
         title: 'Haven',
