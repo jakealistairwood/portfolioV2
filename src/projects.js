@@ -86,7 +86,7 @@ export const designs = [
     {
         title: 'indigo',
         description: 'A landing page design for a fictional digital design and marketing agency.',
-        img: '/img/previews/19toronto.png',
+        img: '/img/previews/indigo.png',
         preview: 'https://www.figma.com/file/OW5LvSPJEdAOqto7OmmXNT/Untitled?node-id=0%3A1'
     },
     {
