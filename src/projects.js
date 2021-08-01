@@ -1,7 +1,15 @@
 export const projects = [
     {
+        title: 'indigo',
+        description: 'A fictional design agency designed in Figma and developed using React and GSAP for page animations. Figma design can be located using the design tab above.',
+        skills: ['gsap', 'react'],
+        img: '/img/previews/indigo.png',
+        code: 'https://github.com/jakealistairwood/fictional-design-agency',
+        preview: 'https://fictional-design-agency.web.app/'
+    },
+    {
         title: 'Small-Margins (Next.js)',
-        description: 'Currently in development. A Next.js App that uses Strapi CMS to create an API. Features include authentication, markdown, server-side and static props.  ',
+        description: 'A Next.js App that uses Strapi CMS to create an API. Features include authentication, markdown, server-side and static props.',
         skills: ['Next.js', 'Strapi', 'Auth'],
         img: '/img/previews/small-margins-next.png',
         code: 'https://github.com/jakealistairwood/small-margins-frontend',
@@ -76,7 +84,7 @@ export const featured = {
 
 export const designs = [
     {
-        title: '19Toronto',
+        title: 'indigo',
         description: 'A landing page design for a fictional digital design and marketing agency.',
         img: '/img/previews/19toronto.png',
         preview: 'https://www.figma.com/file/OW5LvSPJEdAOqto7OmmXNT/Untitled?node-id=0%3A1'
