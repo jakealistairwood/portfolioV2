@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'indigo',
-        description: 'A fictional design agency designed in Figma and developed using React and GSAP for page animations. Figma design can be located using the design tab above.',
+        description: '(Work in Progress) A fictional design agency designed in Figma and developed using React and GSAP for page animations. Figma design can be located using the design tab above.',
         skills: ['gsap', 'react'],
         img: '/img/previews/indigo.png',
         code: 'https://github.com/jakealistairwood/fictional-design-agency',
