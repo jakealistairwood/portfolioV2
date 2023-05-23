@@ -1,5 +1,21 @@
 export const projects = [
     {
+        title: "StoreMaxx",
+        description: "Full build Marketing site for a real-client. The designs were initially created by me and blocks were built using ACF.",
+        skills: ['Wordpress', 'PHP', 'ACF', 'Twig', 'Figma', 'UI/UX'],
+        img: '/img/previews/storemaxx.png',
+        code: "https://github.com/jakealistairwood/",
+        preview: "https://staging.storemaxx.co.uk/",
+    },
+    {
+        title: "Luna9",
+        description: "An infographic website showcasing the history of the battery and how they work. Built during my time at Unfold and uses GSAP for the animations.",
+        skills: ['GSAP', 'Vanilla JS', 'Adobe XD'],
+        img: '/img/previews/luna9.png',
+        code: "https://github.com/jakealistairwood/Luna9",
+        preview: "https://luna9.vercel.app/",
+    },
+    {
         title: 'indigo',
         description: '(Work in Progress) A fictional design agency designed in Figma and developed using React and GSAP for page animations. Figma design can be located using the design tab above.',
         skills: ['gsap', 'react'],
